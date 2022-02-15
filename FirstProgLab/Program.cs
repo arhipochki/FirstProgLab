@@ -16,6 +16,6 @@ int[] array = new int[num];
 Console.WriteLine("Array: ");
 for (int i = 0; i < num; i++)
 {
-    array[i] = new Random().Next(num * num); 
+    array[i] = new Random().Next(num * num); // Generating a random num from 0 up to num * num.
     Console.Write($"{array[i]} ");
 }
