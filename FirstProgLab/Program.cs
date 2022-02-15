@@ -1,7 +1,7 @@
 Console.Write("Input the 1st num: ");
 int num = Convert.ToInt32(Console.ReadLine()); // First num, the main num. Will be used in future.
 
-Console.Write("Input the 2st num: ");
+Console.Write("Input the 2nd num (for math operations): ");
 int another_num = Convert.ToInt32(Console.ReadLine()); // Second num, just for math operations.
 
 Console.WriteLine($"Addition: {num} + {another_num} = {num + another_num}");
